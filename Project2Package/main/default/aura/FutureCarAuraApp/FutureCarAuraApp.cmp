@@ -3,5 +3,5 @@
     <aura:attribute name="subject" type="String" default="World" access="global" />
     <aura:attribute name="greeting" type="String" default="Show current product info" access="global" />
     <aura:handler name="init" value="{!this}" action="{!c.Initialize}" />
-    <c:futureProductApp></c:futureProductApp>    
+    <c:futureProductApp></c:futureProductApp>
 </aura:component>	
